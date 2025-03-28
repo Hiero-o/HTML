@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"metrim";
+    src: url("fontes/Metrim Letter.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'metrim';
+}
+
+h1 {
+    font-family: "metrim", Helvetica, sans-serif;
+    font-size: 9em;
+}
+h2 {
+    font-size: 9em;
+}

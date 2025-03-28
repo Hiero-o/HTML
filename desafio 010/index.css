@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url("idroid.otf") format("opentype");
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    text-align: justify;
+    background-color: #84e1acad;
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(to top, #1B5936, #2B995B, #3CD782);
+    height: 200px;
+    margin: 0px;
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.356);
+    
+}
+
+#cabeca, #cabeca02 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    margin: 0;
+    width: 100%;
+    text-indent: 0px;
+}
+
+nav {
+    margin-top: 34px;
+    margin-left: 5px
+}
+
+nav > a {
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block; 
+}
+
+
+main {
+    border-radius: 0px 0px 10px 10px;
+    margin:0px ;
+    background-color: white;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.300);
+    margin: 0% 10%;
+}
+
+@media (max-width:1020px){
+    main {
+        width: 100%;
+        margin: 0px;
+        border-radius: 0px;
+    }
+}
+main > h2,h1 {
+    padding: 10px;
+}
+
+h1 {
+    color: #1B5936;
+    font-family: "idroid";
+    font-size: 36px;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+@media (max-width: 700px){
+    h1 {
+        font-size: 24px;
+    }
+}
+
+.titulo02 {
+    color: #1B5936;
+    font-family: "idroid";
+    background-image: linear-gradient(to right, #C8ECD8, white);
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+@media (max-width:700px){
+    .titulo02 {
+        font-size: 20px;
+        
+    }
+}
+
+p {
+    text-indent: 40px;
+    padding: 10px;
+}
+
+picture > img {
+    display: block;
+    margin: auto;
+}
+
+iframe {
+    display:block;
+    margin:auto;
+    padding: 10px;
+    width: 600px; 
+    height: 400px;
+}
+
+@media (max-width :790px) {
+    iframe {
+        width: 80%;
+        height: 250px;
+    }
+}
+div {
+    height: auto;
+    background-color: #1B5936;
+    margin-left: 0px;
+}
+
+#extra {
+    background-color: #C8ECD8;
+    margin: 25px;
+    border-radius: 10px; 
+}
+
+#extra > section > h2 {
+    background-color: #62d897;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#extra > section > ul {
+    margin: 10px;
+}
+
+footer {
+
+    background-color: #1B5936;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}

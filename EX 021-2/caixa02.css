@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+    margin: 0px;
+    
+    
+}
+
+header {
+    
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 10px;
+    height: 100px;
+    margin: 10px;
+    padding: 1px 1px 1px 1px
+    
+    
+
+}
+header:hover {
+    background-color: rgb(177, 177, 177);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header:active {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: rgb(236, 236, 236);
+    
+    font-family: Arial, Helvetica, sans-serif;
+     
+    border-radius: 10px; 
+    padding: 3px 0px;
+    text-align: left;
+    box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.322);
+}
+
+nav > a {
+    text-decoration: none;
+    margin-right: 45px;
+    margin-left: 5px;
+    text-align: right;
+}
+
+a{
+    color: #7086f5;
+}
+
+a:hover {
+    color: #5567C3;
+}
+
+
+main {
+    background-color: lightgray;
+    margin: 10px;
+    padding: 5px 0px 10px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.349);
+}
+
+article:hover {
+    background-color: rgb(228, 228, 228);
+    padding: 0px 0px 0px 10px;
+    border-radius: 5px;
+}
+
+article > aside {
+    background-color: rgb(223, 223, 223);
+}
+aside:hover {
+    background-color: rgb(145, 145, 145);
+    padding: 0px 0px 0px 10px;
+    border-radius: 3px;
+}
+
+
+
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+       
+}
+
