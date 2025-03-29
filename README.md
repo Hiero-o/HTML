@@ -5,4 +5,4 @@
 
 
 
-<a href="https://hiero-o.github.io/HTML/desafio%20010-%20corrigido/index.html">Executar o desafio bugdroid</a>
+<a href="https://hiero-o.github.io/HTML/desafio%20010-%20corrigido/index.html" target="_blank">Executar o desafio bugdroid</a>
