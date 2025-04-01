@@ -5,6 +5,8 @@
 
 body {
     background-image: url(../imagens/wallpaper005.jpg);
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -16,13 +18,24 @@ div.quadrado {
     display: inline-block;
     border-radius: 10px;
     background-color: rgb(185, 255, 185);
+
+    
 }
 
+
+
+div.quadrado#unico {
+
+        display: block;
+        margin: auto;   
+}
 
 
 div#q1 {
 
     background-color: skyblue;
+    margin-left: 16%;
+    
 }
 
 div#q2 {
@@ -43,6 +56,8 @@ div#q4 {
 
 div#q5 {
     background-image: url(../imagens/pattern003.png);
+    margin-left: 15.7%;
+    margin-top: 0.5%;
 }
 
 div#q6 {
@@ -51,4 +66,5 @@ div#q6 {
 
 div#q7 {
     background-image: url(../imagens/wallpaper001.jpg);
+    
 }
