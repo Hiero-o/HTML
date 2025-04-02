@@ -9,6 +9,12 @@ body {
     background: black url(../imagens/wallpaper002.jpg) center center no-repeat fixed;
     background-size: cover;
 
+    /*
+
+    Por enquanto, o background-size não funciona dentro do shorthand background.
+
+    */
+
 
 }
 
