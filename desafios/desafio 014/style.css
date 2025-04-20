@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    border-collapse: collapse;
+    font-size: 1.3em;
+    
+}
+
+th, td, .meio {
+    border: 1px solid black;
+    padding: 3px 0px;
+    text-align: center;
+    
+}
+
+
+
+tbody th {
+    text-align: left;
+
+}
+
+thead, .titulo {
+    background-color: rgb(92, 92, 92);
+    color: white;
+    font-weight: bold;
+    
+}
